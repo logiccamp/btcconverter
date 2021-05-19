@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import Convert from './components/convert';
 import Home from './components/home';
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
 

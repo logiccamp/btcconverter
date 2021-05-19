@@ -1,8 +1,7 @@
-import react, {useState, useEffect} from 'react'
+import {useState} from 'react'
 import axios from 'axios'
 
 function Convert() {
-  const [data, setData] = useState('')
   const [result, setResult] = useState('')
   const [value, setValue] = useState('')
   const [ready, setLoading] = useState(false)
